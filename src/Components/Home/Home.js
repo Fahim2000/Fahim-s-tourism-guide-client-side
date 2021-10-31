@@ -48,7 +48,7 @@ const Home = () => {
                     <div className="card-body">
                       <h4 className="card-title">{tour.name}</h4>
                       <h5 className="card-title my-4">Rs. {tour.price}</h5>
-                      <p className="card-text">{tour.desc.substr(0, 220)}</p>
+                      <p className="card-text">{tour.desc}</p>
                       <Link to={`/tourBook/${tour._id}`}>
                         <button className="w-100 btn btn-dark">Book now</button>
                       </Link>
